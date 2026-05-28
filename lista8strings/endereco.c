@@ -3,23 +3,45 @@
 
 struct Endereco {
 
-    char logradouro[51];
-    char num[6];
-    char complemento[21];
-    char cidade[21];
-    char bairro[21];
-    char estado[21];
-    char CEP[9];
-    
+    char *logradouro;
+    char *num;
+    char *complemento;
+    char *cidade;
+    char *bairro;
+    char *estado;
+    char *cep;
 };
 
 int main() {
 
+    struct Endereco end;
+
     char info[201];
 
-    printf("Mande seu endereco, separando as informacoes por virgulas");
+    printf("Mande seu endereco, separando as informacoes por virgulas\n");
 
     fgets(info, 201, stdin);
 
-    char *token = strtok(info, ",");
+    end.logradouro = strtok(info, " ,");
+    printf("%s\n", end.logradouro);
+
+    end.num = strtok(NULL, " ,");
+    printf("%s\n", end.num);
+
+    end.complemento = strtok(NULL, " ,");
+    printf("%s\n", end.complemento);
+
+    end.cidade = strtok(NULL, " ,");
+    printf("%s\n", end.cidade);
+
+    end.bairro = strtok(NULL, " ,");
+    printf("%s\n", end.bairro);
+
+    end.estado = strtok(NULL, " ,");
+    printf("%s\n", end.estado);
+
+    end.cep = strtok(NULL, " ,");
+    printf("%s\n", end.cep);
+
+    return 0;
 }
