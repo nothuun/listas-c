@@ -1,0 +1,13 @@
+ID	Nome	Cargo	Idade	Salario	Departamento	Tempo de Empresa
+1	Ana Paula	Analista de Sistemas	28	4500.00	TI	3 anos
+2	Carlos Eduardo	Gerente Financeiro	42	8500.00	Financeiro	10 anos
+3	Mariana Souza	Assistente RH	25	2800.00	RH	1 ano
+4	Joao Pedro	Desenvolvedor	31	5200.00	TI	4 anos
+5	Fernanda Lima	Coordenadora	36	6700.00	Marketing	6 anos
+6	Lucas Almeida	Estagiario	21	1400.00	TI	6 meses
+7	Patricia Gomes	Recepcionista	29	2200.00	Administrativo	2 anos
+8	Rafael Martins	Vendedor	33	3100.00	Comercial	5 anos
+9	Juliana Costa	Designer Grafico	27	3900.00	Marketing	2 anos
+10	Bruno Henrique	Tecnico de Suporte	30	3200.00	TI	3 anos
+
+Jujubas
